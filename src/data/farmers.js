@@ -1,0 +1,103 @@
+export const FARMERS = [
+  {
+    id: 'KM-001', name: 'Ramesh Kumar', contact: '9812345670',
+    village: 'Khanna', district: 'Ludhiana', state: 'Punjab',
+    landArea: 4.5, crops: 'Wheat, Rice', status: 'Active',
+    joined: '2021-03-12', aadhaar: 'XXXX-XXXX-1234',
+    bank: 'Punjab National Bank', annualIncome: 85000,
+    category: 'Small Farmer', gender: 'Male', age: 48,
+  },
+  {
+    id: 'KM-002', name: 'Sukhwinder Singh', contact: '9876543210',
+    village: 'Doraha', district: 'Ludhiana', state: 'Punjab',
+    landArea: 7.2, crops: 'Wheat, Maize', status: 'Active',
+    joined: '2020-06-18', aadhaar: 'XXXX-XXXX-5678',
+    bank: 'State Bank of India', annualIncome: 140000,
+    category: 'Medium Farmer', gender: 'Male', age: 54,
+  },
+  {
+    id: 'KM-003', name: 'Harpreet Kaur', contact: '9765432109',
+    village: 'Raikot', district: 'Ludhiana', state: 'Punjab',
+    landArea: 2.1, crops: 'Vegetables', status: 'Active',
+    joined: '2022-01-05', aadhaar: 'XXXX-XXXX-9012',
+    bank: 'Canara Bank', annualIncome: 42000,
+    category: 'Marginal Farmer', gender: 'Female', age: 38,
+  },
+  {
+    id: 'KM-004', name: 'Baldev Sharma', contact: '9654321098',
+    village: 'Machhiwara', district: 'Ludhiana', state: 'Punjab',
+    landArea: 10.8, crops: 'Wheat, Cotton', status: 'Active',
+    joined: '2019-11-20', aadhaar: 'XXXX-XXXX-3456',
+    bank: 'Punjab & Sind Bank', annualIncome: 220000,
+    category: 'Large Farmer', gender: 'Male', age: 61,
+  },
+  {
+    id: 'KM-005', name: 'Manjeet Dhaliwal', contact: '9543210987',
+    village: 'Samrala', district: 'Ludhiana', state: 'Punjab',
+    landArea: 3.6, crops: 'Rice, Mustard', status: 'Inactive',
+    joined: '2021-07-30', aadhaar: 'XXXX-XXXX-7890',
+    bank: 'Axis Bank', annualIncome: 68000,
+    category: 'Small Farmer', gender: 'Male', age: 43,
+  },
+  {
+    id: 'KM-006', name: 'Gurpreet Gill', contact: '9432109876',
+    village: 'Sidhwan Bet', district: 'Ludhiana', state: 'Punjab',
+    landArea: 5.9, crops: 'Wheat, Sunflower', status: 'Active',
+    joined: '2020-09-14', aadhaar: 'XXXX-XXXX-2345',
+    bank: 'HDFC Bank', annualIncome: 115000,
+    category: 'Medium Farmer', gender: 'Male', age: 50,
+  },
+  {
+    id: 'KM-007', name: 'Santosh Devi', contact: '9321098765',
+    village: 'Dehlon', district: 'Ludhiana', state: 'Punjab',
+    landArea: 1.8, crops: 'Vegetables, Herbs', status: 'Active',
+    joined: '2022-04-22', aadhaar: 'XXXX-XXXX-6789',
+    bank: 'Bank of Baroda', annualIncome: 35000,
+    category: 'Marginal Farmer', gender: 'Female', age: 42,
+  },
+  {
+    id: 'KM-008', name: 'Jaspal Sandhu', contact: '9210987654',
+    village: 'Mullanpur Dakha', district: 'Ludhiana', state: 'Punjab',
+    landArea: 8.3, crops: 'Wheat, Paddy', status: 'Active',
+    joined: '2019-08-01', aadhaar: 'XXXX-XXXX-0123',
+    bank: 'Indian Bank', annualIncome: 175000,
+    category: 'Medium Farmer', gender: 'Male', age: 57,
+  },
+  {
+    id: 'KM-009', name: 'Paramjit Brar', contact: '9109876543',
+    village: 'Payal', district: 'Ludhiana', state: 'Punjab',
+    landArea: 6.0, crops: 'Cotton, Wheat', status: 'Pending',
+    joined: '2023-02-11', aadhaar: 'XXXX-XXXX-4567',
+    bank: 'Union Bank', annualIncome: 120000,
+    category: 'Medium Farmer', gender: 'Male', age: 35,
+  },
+  {
+    id: 'KM-010', name: 'Kulwinder Rana', contact: '9098765432',
+    village: 'Sudhar', district: 'Ludhiana', state: 'Punjab',
+    landArea: 3.2, crops: 'Vegetables, Wheat', status: 'Active',
+    joined: '2021-12-08', aadhaar: 'XXXX-XXXX-8901',
+    bank: 'ICICI Bank', annualIncome: 62000,
+    category: 'Small Farmer', gender: 'Female', age: 46,
+  },
+  {
+    id: 'KM-011', name: 'Amritpal Toor', contact: '9887654321',
+    village: 'Khanna', district: 'Ludhiana', state: 'Punjab',
+    landArea: 9.1, crops: 'Rice, Barley', status: 'Active',
+    joined: '2020-03-29', aadhaar: 'XXXX-XXXX-2349',
+    bank: 'SBI', annualIncome: 185000,
+    category: 'Medium Farmer', gender: 'Male', age: 52,
+  },
+  {
+    id: 'KM-012', name: 'Simranjit Sekhon', contact: '9776543210',
+    village: 'Raikot', district: 'Ludhiana', state: 'Punjab',
+    landArea: 4.7, crops: 'Wheat, Turmeric', status: 'Active',
+    joined: '2022-09-03', aadhaar: 'XXXX-XXXX-6780',
+    bank: 'PNB', annualIncome: 94000,
+    category: 'Small Farmer', gender: 'Male', age: 39,
+  },
+]
+
+export const FARMER_CATEGORY_OPTIONS = ['Marginal Farmer', 'Small Farmer', 'Medium Farmer', 'Large Farmer']
+export const FARMER_STATUS_OPTIONS = ['Active', 'Inactive', 'Pending']
+export const CROP_OPTIONS = ['Wheat', 'Rice', 'Maize', 'Cotton', 'Mustard', 'Vegetables', 'Sunflower', 'Paddy', 'Barley', 'Turmeric', 'Herbs']
+export const BANK_OPTIONS = ['Punjab National Bank', 'State Bank of India', 'Canara Bank', 'HDFC Bank', 'ICICI Bank', 'Axis Bank', 'Bank of Baroda', 'Punjab & Sind Bank', 'Union Bank', 'Indian Bank']

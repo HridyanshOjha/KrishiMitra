@@ -1,0 +1,98 @@
+export const LAND_RECORDS = [
+  {
+    id: 'LR-001', farmerId: 'KM-001', ownerName: 'Ramesh Kumar',
+    khasraNo: 'KH-4521', area: 4.5, unit: 'Acres',
+    landType: 'Agricultural', soilType: 'Loamy',
+    village: 'Khanna', taluka: 'Khanna', district: 'Ludhiana',
+    irrigated: true, irrigationSource: 'Canal',
+    ownership: 'Owned', status: 'Cultivated',
+    lastUpdated: '2024-02-14',
+  },
+  {
+    id: 'LR-002', farmerId: 'KM-002', ownerName: 'Sukhwinder Singh',
+    khasraNo: 'KH-7832', area: 7.2, unit: 'Acres',
+    landType: 'Agricultural', soilType: 'Sandy Loam',
+    village: 'Doraha', taluka: 'Doraha', district: 'Ludhiana',
+    irrigated: true, irrigationSource: 'Tube Well',
+    ownership: 'Owned', status: 'Cultivated',
+    lastUpdated: '2024-01-20',
+  },
+  {
+    id: 'LR-003', farmerId: 'KM-003', ownerName: 'Harpreet Kaur',
+    khasraNo: 'KH-1290', area: 2.1, unit: 'Acres',
+    landType: 'Agricultural', soilType: 'Clay',
+    village: 'Raikot', taluka: 'Raikot', district: 'Ludhiana',
+    irrigated: false, irrigationSource: 'Rain-fed',
+    ownership: 'Leased', status: 'Cultivated',
+    lastUpdated: '2024-03-01',
+  },
+  {
+    id: 'LR-004', farmerId: 'KM-004', ownerName: 'Baldev Sharma',
+    khasraNo: 'KH-9034', area: 10.8, unit: 'Acres',
+    landType: 'Agricultural', soilType: 'Alluvial',
+    village: 'Machhiwara', taluka: 'Machhiwara', district: 'Ludhiana',
+    irrigated: true, irrigationSource: 'Canal + Tube Well',
+    ownership: 'Owned', status: 'Cultivated',
+    lastUpdated: '2024-02-28',
+  },
+  {
+    id: 'LR-005', farmerId: 'KM-005', ownerName: 'Manjeet Dhaliwal',
+    khasraNo: 'KH-3456', area: 3.6, unit: 'Acres',
+    landType: 'Agricultural', soilType: 'Sandy',
+    village: 'Samrala', taluka: 'Samrala', district: 'Ludhiana',
+    irrigated: false, irrigationSource: 'Rain-fed',
+    ownership: 'Owned', status: 'Fallow',
+    lastUpdated: '2023-11-10',
+  },
+  {
+    id: 'LR-006', farmerId: 'KM-006', ownerName: 'Gurpreet Gill',
+    khasraNo: 'KH-5678', area: 5.9, unit: 'Acres',
+    landType: 'Agricultural', soilType: 'Loamy',
+    village: 'Sidhwan Bet', taluka: 'Ludhiana', district: 'Ludhiana',
+    irrigated: true, irrigationSource: 'Tube Well',
+    ownership: 'Owned', status: 'Cultivated',
+    lastUpdated: '2024-03-05',
+  },
+  {
+    id: 'LR-007', farmerId: 'KM-007', ownerName: 'Santosh Devi',
+    khasraNo: 'KH-2345', area: 1.8, unit: 'Acres',
+    landType: 'Horticulture', soilType: 'Red Laterite',
+    village: 'Dehlon', taluka: 'Dehlon', district: 'Ludhiana',
+    irrigated: false, irrigationSource: 'Rain-fed',
+    ownership: 'Leased', status: 'Cultivated',
+    lastUpdated: '2024-01-15',
+  },
+  {
+    id: 'LR-008', farmerId: 'KM-008', ownerName: 'Jaspal Sandhu',
+    khasraNo: 'KH-7890', area: 8.3, unit: 'Acres',
+    landType: 'Agricultural', soilType: 'Alluvial',
+    village: 'Mullanpur Dakha', taluka: 'Ludhiana', district: 'Ludhiana',
+    irrigated: true, irrigationSource: 'Canal',
+    ownership: 'Owned', status: 'Cultivated',
+    lastUpdated: '2024-02-20',
+  },
+  {
+    id: 'LR-009', farmerId: 'KM-009', ownerName: 'Paramjit Brar',
+    khasraNo: 'KH-1234', area: 6.0, unit: 'Acres',
+    landType: 'Agricultural', soilType: 'Black Cotton',
+    village: 'Payal', taluka: 'Payal', district: 'Ludhiana',
+    irrigated: true, irrigationSource: 'Tube Well',
+    ownership: 'Owned', status: 'Under Survey',
+    lastUpdated: '2024-03-10',
+  },
+  {
+    id: 'LR-010', farmerId: 'KM-010', ownerName: 'Kulwinder Rana',
+    khasraNo: 'KH-4567', area: 3.2, unit: 'Acres',
+    landType: 'Mixed', soilType: 'Loamy',
+    village: 'Sudhar', taluka: 'Ludhiana', district: 'Ludhiana',
+    irrigated: false, irrigationSource: 'Rain-fed',
+    ownership: 'Owned', status: 'Cultivated',
+    lastUpdated: '2024-01-30',
+  },
+]
+
+export const LAND_TYPE_OPTIONS = ['Agricultural', 'Horticulture', 'Mixed', 'Barren', 'Forest']
+export const SOIL_TYPE_OPTIONS = ['Loamy', 'Sandy Loam', 'Clay', 'Alluvial', 'Sandy', 'Red Laterite', 'Black Cotton']
+export const OWNERSHIP_OPTIONS = ['Owned', 'Leased', 'Shared', 'Government Allotted']
+export const LAND_STATUS_OPTIONS = ['Cultivated', 'Fallow', 'Under Survey', 'Disputed']
+export const IRRIGATION_SOURCE_OPTIONS = ['Canal', 'Tube Well', 'Canal + Tube Well', 'Rain-fed', 'Drip Irrigation', 'Sprinkler']
