@@ -3,28 +3,7 @@
 A modern, responsive, production-ready frontend for digitizing farmer registrations,
 land records, and government scheme enrollments for district agricultural departments.
 
----
-
-## ✅ GitHub Safety Checklist
-
-| Check | Status |
-|-------|--------|
-| No API keys / secrets in source code | ✅ Clean |
-| `.env` in `.gitignore` | ✅ Ignored |
-| `.env.example` committed (safe template) | ✅ Present |
-| `"private": true` in `package.json` | ✅ Set |
-| No `dangerouslySetInnerHTML` / XSS vectors | ✅ Clean |
-| No `console.log` / `console.error` leaks | ✅ Removed |
-| No hardcoded credentials in production paths | ✅ Demo-only |
-| Auth uses `sessionStorage` (cleared on tab close) | ✅ Secure |
-| All routes behind `RequireAuth` guard | ✅ Protected |
-| Zero unused imports | ✅ Verified |
-
-> **Note on demo credentials:** `LoginPage.jsx` contains demo usernames/passwords
-> clearly marked for development. Before any real deployment, replace the `DEMO_USERS`
-> array with a real API call and remove the credential hints from the UI.
-
----
+ 
 
 ## 📁 Project Structure
 
